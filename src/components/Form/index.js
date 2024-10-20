@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import Grid from "../Grid";
 import * as C from "./styles";
@@ -31,7 +32,7 @@ const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
     setAmount("");
   };
 
-  return (
+ return (
     <>
       <C.Container>
         <C.InputContent>
