@@ -18,7 +18,8 @@ export const Tr = styled.tr``;
 
 export const Th = styled.th`
   border-bottom: inset;
-  padding-bottom: 5px;
+  padding-bottom: 25px;
+  padding-left: 14px;
   text-align: ${(props) => (props.alignCenter ? "center" : "start")};
   width: ${(props) => (props.width ? props.width + "%" : "auto")};
 `;

@@ -6,6 +6,7 @@ const Resume = ({ total, productCount }) => {
   return (
     <C.Container>
       <ResumeItem title="Valor em Estoque" value={total} />
+      
       <ResumeItem title="Total de Produtos" value={productCount} />
     </C.Container>
   );
